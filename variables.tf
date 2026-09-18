@@ -2,6 +2,6 @@ variable "RG" {
 
 }
 
-# variable "Storage" {
+ variable "Storage" {
 
-# }
+ }
