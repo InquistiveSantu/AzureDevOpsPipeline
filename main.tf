@@ -7,6 +7,14 @@ resource "azurerm_resource_group" "rg" {
 
 
 
+resource "azurerm_resource_group" "rg1" {
+
+  name     = "santu"
+  location = "westus"
+}
+
+
+
 resource "azurerm_storage_account" "stg001" {
   name                     = each.value.name
   resource_group_name      = each.value.resource_group_name
