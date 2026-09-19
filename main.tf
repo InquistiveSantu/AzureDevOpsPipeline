@@ -16,4 +16,11 @@ resource "azurerm_storage_account" "stg001" {
 }
 
 
-hdkjj
+
+variable "rg" {
+  
+}
+
+kjfhgksfjfsjg
+
+
